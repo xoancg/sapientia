@@ -1,5 +1,3 @@
-#Reformat Code: Ctrl+Alt+L
-
 print('Programa para a resolución da ecuación ax + b = 0')
 
 a = float(input('Valor de a: '))
