@@ -4,4 +4,5 @@ number = int(input('Type a number: '))
 
 # Note: 'b' parameter is not included in range(a, b)
 for power in range(2, 5):
-    print('{0} to the power of {1} is {2}'.format(number, power, number ** power))
+    print('{0} to the power of {1} is {2}'.forma
+    t(number, power, number ** power))
