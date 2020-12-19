@@ -1,8 +1,7 @@
 rows = 10
 columns = 10
-board = []
-pulses = 6
 
+board = []
 for i in range(rows):
     board.append([False] * columns)
 
@@ -21,10 +20,10 @@ for y in range(rows):
     print()
 
 # Pulses
+pulses = 6
 for t in range(pulses):
     # Preparing a new board
     newboard = []
-
     for i in range(rows):
         newboard.append([False] * columns)
 
@@ -60,7 +59,7 @@ for t in range(pulses):
                 newboard[y][x] = False
 
     # Updating board
-    boar = newboard
+    board = newboard
 
     # Representing the board
     print('Pulse', t + 1)
