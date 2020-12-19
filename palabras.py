@@ -2,12 +2,12 @@ string = input('Write a sentence: ')
 
 while string != '':
     changes = 0
-    #previous = ' '
+    # previous = ' '
 
     for i in range(0, len(string)):
-        if string[i] == ' ' and string[i-1] != ' ':
+        if string[i] == ' ' and string[i - 1] != ' ':
             changes += 1
-            #previous = char
+            # previous = char
 
     if string[-1] == ' ':
         changes -= 1
